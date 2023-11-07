@@ -1,0 +1,9 @@
+#Python program to check the word is Anagram or not
+word1 = input("Enter a word:")
+word2 = input("Enter second word:")
+w1 = sorted(word1)
+w2 = sorted(word2)
+if w1 == w2:
+    print(f" The {word1} and {word2} are Anagram words.")
+else:
+    print(f" The {word1} and {word2} are not Anagram words.")
